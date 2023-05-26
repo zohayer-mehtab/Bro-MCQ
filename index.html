@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
-  <title>Landing Page</title>
+  <title>Home</title>
   <style>
     /* Custom styles */
   </style>
@@ -14,31 +14,48 @@
 <body class="bg-gray-100">
   <header class="bg-white py-4">
     <nav class="container mx-auto flex justify-between items-center">
-      <div>
-        <a href="#" class="text-gray-700 font-semibold mr-4">Link 1</a>
-        <a href="#" class="text-gray-700 font-semibold mr-4">Link 2</a>
-        <a href="#" class="text-gray-700 font-semibold mr-4">Link 3</a>
-        <a href="#" class="text-gray-700 font-semibold">Link 4</a>
+      <div class="flex items-center">
+        <a href="#" class="flex items-center">
+          <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81os7HbYknzlKV9qqxZxjWNLQ5BTDW9eaMxC4q4r3JTPJpDNRVka5hVpTrMabSL_DfwTnAYwmNaWtU36n0Hi3UMYH1ZmLw=s2560"
+            alt="Logo" class="h-8 w-8 mr-2">
+          <span class="text-gray-700 font-bold">Bro MCQ</span>
+        </a>
+      </div>
+      <div class="flex justify-center">
+        <a href="#" class="text-gray-700 font-semibold mx-4">Subjects</a>
+        <a href="#" class="text-gray-700 font-semibold mx-4">Social</a>
+        <a href="#" class="text-gray-700 font-semibold mx-4">About</a>
       </div>
     </nav>
   </header>
 
-  <section class="bg-blue-500 text-white py-20">
+
+
+  <section class="bg-white text-black py-20">
     <div class="container mx-auto">
-      <div class="flex items-center justify-center">
-        <div class="max-w-lg">
-          <img src="https://source.unsplash.com/VBPzRgd7gfc" alt="Hero Image" class="mb-4">
+      <div class="flex flex-col-reverse lg:flex-row items-center justify-center">
+        <div class="max-w-lg lg:mr-16">
           <h1 class="text-4xl font-bold mb-4">Welcome to Bro MCQ</h1>
           <p class="text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum, urna vitae
-            luctus
-            bibendum, nisi urna consequat elit.</p>
-          <a href="#"
-            class="bg-white text-blue-500 px-6 py-3 font-semibold rounded-full shadow-lg hover:bg-blue-400">Learn
-            More</a>
+            luctus bibendum, nisi urna consequat elit.</p>
+          <div class="flex items-center space-x-4">
+            <a href="#" class="bg-black text-white px-6 py-3 font-semibold rounded-full hover:bg-gray-800">Filled
+              Button</a>
+            <a href="#"
+              class="border border-black text-black px-6 py-3 font-semibold rounded-full hover:bg-gray-200">Bordered
+              Button</a>
+          </div>
+        </div>
+        <div class="max-w-lg">
+          <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81oPSkcfS1IQdLZxIrpYuFv6bFPIwgxVW20NpV7fHnXAv6z3YqjBXqC6fsyxvdh5Q9xFQ9Lzu5Vem80aeH_IQ2SgIE54Aw=s2560"
+            alt="Hero Image" class="mb-4">
         </div>
       </div>
     </div>
   </section>
+
 
 
   <section class="container mx-auto py-12">
