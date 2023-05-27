@@ -81,3 +81,8 @@ body {
   font-family: "Segoe UI", sans-serif;
   color: #333;
 }
+
+
+.fb-comments span, .fb-comments a {
+  color: white !important;
+}
