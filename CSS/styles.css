@@ -83,6 +83,9 @@ body {
 }
 
 
-.fb-comments span, .fb-comments a {
-  color: white !important;
+
+
+.fb-comments span, .fb-comments iframe {
+  filter: invert(1);
 }
+
