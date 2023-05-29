@@ -1,5 +1,6 @@
-Copyright (c) [2023] [Bro MCQ]
+/* Copyright (C) 2023 Bro MCQ - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Zohayer Mehtab <zohayer.mehtab@gmail.com>, May 2023
+ */
 
-All rights reserved.
-
-No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright holder, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
